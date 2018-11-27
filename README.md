@@ -1,3 +1,5 @@
+## Learning a new language steps
+
 ### To start Research questions:
 - Ask yourself why you want / need to learn it.
 - Is the language interpreted or compiled?
@@ -15,7 +17,7 @@
 - variables
   - `cammelCase`, `snake_case` or something else?
 - basic types / primitives
-- how do you print to stout
+- how do you print to stout?
 - truthy / falsy values
 - comparison operators
   - what do they actually compare?
@@ -33,14 +35,13 @@
 - how do you print to stout?
 - how do you capture user input from stdin?
 
-**Exercises ideas:**
+**Exercise ideas:**
 - hello world
-- hello <your name>
+- hello 'your name'
 - temperature convertor (C to F)
 - guess number game with user input
 - animal sorter
   - user inputs cat it outputs mammal, swan outputs bird, trout outputs fish etc.
-
 
 ### More advanced syntax
 - functions / methods
@@ -100,7 +101,7 @@
 - is the language pass-by-reference or pass-by-value?
 - modules / abstract classes?
 
-### testing
+### Testing
 - what is the main TDD framework?
   - i.e. the Rspec / xUnit?
   - how do you?
@@ -145,7 +146,7 @@
 - code metric reporter
 - packages to make coding the language easier in your favourite editor.
 
-### further basic things:
+### Further basic things:
 - browse standard library
   - how do you do basic net working?
     - http
@@ -156,13 +157,13 @@
   - logging modules?
   - anything else that catches your eye.
 
-### web
+### Web
 - what is the 'minimal' web framework? (e.g. Sinatra or Flask)
 - what is the 'maximal' web framework? (e.g. Rails or Django)
 - how do you configure these to be up and running? Set up testing etc.
 - what is the suitability of each?
 
-**web projects / exercises**
+**Web projects / exercises**
 - hello world
 - bookmark manager
 - readability score calculator
