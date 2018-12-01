@@ -1,11 +1,11 @@
 ## Learning a new language steps
 
 ### To start Research questions:
-- Ask yourself why you want / need to learn it.
-- Is the language interpreted or compiled?
-- Is it dynamically or statically typed?
-- Can you run scripts directly or do they need a Main method?
-- Does the language have primitives?
+- ask yourself why you want / need to learn it.
+- is the language interpreted or compiled?
+- is it dynamically or statically typed?
+- can you run scripts directly or do they need a Main method?
+- does the language have primitives?
 - what are the main online resources?
   - library vendors
   - docs
@@ -18,7 +18,7 @@
   - `cammelCase`, `snake_case` or something else?
 - basic types / primitives
 - how do you print to stout?
-- truthy / falsy values
+- truthy / falsey values
 - comparison operators
   - what do they actually compare?
 - control flow structures
@@ -31,19 +31,18 @@
     - for
     - while
     - for in
-
 - how do you print to stout?
 - how do you capture user input from stdin?
 
-**Exercise ideas:**
-- hello world
-- hello 'your name'
-- temperature convertor (C to F)
-- guess number game with user input
-- animal sorter
-  - user inputs cat it outputs mammal, swan outputs bird, trout outputs fish etc.
+_**Exercise ideas:**_
+- _hello world_
+- _hello 'your name'_
+- _temperature convertor (C to F)_
+- _guess number game with user input_
+- _animal sorter_
+  - _user inputs cat it outputs mammal, swan outputs bird, trout outputs fish etc._
 
-### More advanced syntax
+### More advanced syntax:
 - functions / methods
   - what do functions return if they are empty?
   - what is a functions scope?
@@ -65,31 +64,31 @@
 - string manipulation
   - concatenation
   - uppercase / lower case
-  - how do you format / interpolate a string
+  - how do you format / interpolate a string?
   - delete a char
 - randomness
 - file manipulation
   - CRUD for this
 - throwing and catching errors / exceptions
 
-**Exercise ideas:**
-- fizzBuzz
-- fibonacci - procedural
-- fibonacci - functional
-- magic eight ball function
-- convert int to string
-- convert string to array of chars
-- implement `reduce()` function for an array of ints
-- roman numeral convertor function
-- isPrime function
-- implement a binary search function
-- implement you own `map()` method on a collection that accepts a function as an an argument.
-- inventory tracker using a flat file.
-- short text adventure game.
-- scrabble word scorer
-- blackjack game
+_**Exercise ideas:**_
+- _fizzBuzz_
+- _fibonacci - procedural_
+- _fibonacci - functional_
+- _magic eight ball function_
+- _convert int to string_
+- _convert string to array of chars_
+- _implement `reduce()` function for an array of ints_
+- _roman numeral convertor function_
+- _isPrime function_
+- _implement a binary search function_
+- _implement you own `map()` method on a collection that accepts a function as an an argument._
+- _inventory tracker using a flat file._
+- _short text adventure game._
+- _scrabble word scorer_
+- _blackjack game_
 
-### OOP
+### OOP:
 - how do you declare a class?
   - class methods
   - class variables
@@ -101,7 +100,7 @@
 - is the language pass-by-reference or pass-by-value?
 - modules / abstract classes?
 
-### Testing
+### Testing:
 - what is the main TDD framework?
   - i.e. the Rspec / xUnit?
   - how do you?
@@ -113,21 +112,21 @@
   - what is the best way to structure test files.
 - what is the main BDD testing framework?
 
-**OOP TDD exercise ideas**
-- transport hierarchy - 'a motorbike is a vehicle'
-- oyster card system
-- restaurant system
-- tube system with multiple stops.
-- airport
-- car with separate parts (composition)
-- tic-tac-toe
-- battleships
-- guess who
-- rock paper scissors spock.
-- define you own exception class called Tantrum
-- create a Kight class that has an inventory and can go on quests / has damage / strength.
+_**OOP TDD exercise ideas**_
+- _transport hierarchy - 'a motorbike is a vehicle'_
+- _oyster card system_
+- _restaurant system_
+- _tube system with multiple stops._
+- _airport_
+- _car with separate parts (composition)_
+- _noughts and crosses_
+- _battleships_
+- _guess who_
+- _rock paper scissors spock._
+- _define you own exception class called Tantrum_
+- _create a Kight class that has an inventory and can go on quests / has damage / strength._
 
-### Upfront work
+### Upfront work:
 - how do you set up an environment?
   - install the language
   - manage language versions / environments
@@ -157,19 +156,19 @@
   - logging modules?
   - anything else that catches your eye.
 
-### Web
+### Web:
 - what is the 'minimal' web framework? (e.g. Sinatra or Flask)
 - what is the 'maximal' web framework? (e.g. Rails or Django)
 - how do you configure these to be up and running? Set up testing etc.
 - what is the suitability of each?
 
-**Web projects / exercises**
-- hello world
-- bookmark manager
-- readability score calculator
-- twitter clone
-- ipsum lorem generator
-- group chat app
-- simple calendar app
-- online battleships game
-- income distribution calculator
+_**Web projects / exercises**_
+- _hello world_
+- _bookmark manager_
+- _readability score calculator_
+- _twitter clone_
+- _ipsum lorem generator_
+- _group chat app_
+- _simple calendar app_
+- _online battleships game_
+- _income distribution calculator_
