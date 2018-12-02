@@ -132,7 +132,8 @@ while 1: # infinite loop
         break  # this will break the loop
 ```
 
-##### functions / methods
+##### Functions / methods:
+- functions are first class obejects in python.
 ```python
 # use explicit returns
 def add(x, y):
@@ -145,4 +146,150 @@ def say(name):
 a = say("ben")
 
 print(a) # -> None
+
+# anonymous functions are 'lambdas'
+# and are only one line.
+add = lambda x, y : x + y
+add(2, 5) # -> 7
+```
+
+##### Inbuilt compound types:
+
+**List**
+- An ordered collection (similar to an array in ruby).
+```python
+# definition
+list = ['a', 'b', 'c']
+
+# get it's length
+len(list) # -> 3
+
+# index access
+list[1] # -> 'b'
+list[-1] # -> 'c'
+list[0:2] # -> ['a', 'b']
+
+# add value to end
+list.append('d')
+
+# delete list items
+del list[2] # -> ['a', 'b']
+
+# remove specific item
+list.remove("a")
+```
+**tuple**
+- An immutable ordered collection
+- have same length and access methods as lists
+```python
+# definition
+tuple = (1, 2, 3)
+tuple = 1, 2, 3 # no bracket syntax
+
+# commonly used to return multiple values:
+def something(num1, num2):
+    return (num1, num2)
+
+one, two = something(one, two)
+```
+**Dict (dictionary)**
+- Unordered (key, value) mapped pairs (similar to a hash in ruby).
+```python
+# definition
+numbers = {'one':1, 'two':2, 'three':3}
+
+# Access a value via the key
+numbers['two'] # -> 2
+
+# Set a new key:value pair
+numbers['ninety'] = 90
+```
+
+**Set**
+- Unordered collection of unique values
+```python
+# definition
+primes = {2, 3, 5, 7}
+
+# union: items appearing in either
+primes | odds      # with an operator
+primes.union(odds) # equivalently with a method
+
+# intersection: items appearing in both
+primes & odds             # with an operator
+primes.intersection(odds) # equivalently with a method
+
+# difference: items in primes but not in odds
+primes - odds           # with an operator
+primes.difference(odds) # equivalently with a method
+
+# symmetric difference: items appearing in only one set
+primes ^ odds                     # with an operator
+primes.symmetric_difference(odds) # equivalently with a method
+```
+
+##### Randomness
+- for secure random numbers use the [secrets](https://docs.python.org/3/library/secrets.html#module-secrets) module.
+- for pseudorandom use random:
+```python
+import random
+
+# num in random range:
+random.randint(a, b)
+random.randrange(1,9)
+
+# random val from list
+random.choice(list)
+```
+
+##### Reading / writing files
+
+```python
+# 'r' -  reading
+# 'w' -  writing
+# 'x' - creating and writing a new file
+# 'a' - appending to a file
+# 'r+' - reading and writing to the same file
+
+file = open(path_to_file, 'r')
+
+# all contents in single string
+file.read()
+
+# individual line
+file.readline()
+
+# array with string for each line
+file.readlines()
+
+# writing
+file = open(new_path,'w')
+
+# takes a string - you must specify newlines
+file.write(content)
+```
+
+##### Error handling
+```python
+try:
+    x = float(input("Your number: "))
+    inverse = 1.0 / x
+except ValueError:
+    print("You should have given either an int or a float")
+except ZeroDivisionError:
+    print("Infinity")
+finally:
+    print("There may or may not have been an exception.")
+```
+
+- An else clause will be executed if the try clause doesn't raise an exception.
+
+```python
+try:
+    fh = open(file_name, 'r')
+except IOError:
+    print('cannot open', file_name)
+else:
+    text = fh.readlines()
+    fh.close()
 ```
