@@ -1,4 +1,4 @@
-## Learning a new language steps
+## Learning a new language steps < by Ellie >
 
 ### To start Research questions:
 - ask yourself why you want / need to learn it.
